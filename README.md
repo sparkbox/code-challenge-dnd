@@ -60,7 +60,7 @@ This repo contains source code in the `src` repo to get you started, as well as 
 
 1. Clone this repo
 1. `cd` into the directory and run `npm install`
-1. Run the tests with `npm test:watch`
+1. Run the tests with `npm run test:watch`
 1. Locate the characters in the `src` directory and choose a character to implement.
    - __Note:__ `src/character` contains a generic implementation for reference.
 1. Locate the character's set of tests in `index.test.ts`
