@@ -29,7 +29,7 @@ Compose various behaviors together to create a character. The interface for thes
 Here's the tricky part. Although Characters shares some base behavior, each Character type has a special behavior unique to that Character. We should ensure that this special behavior is _not_ part of the base `CharacterInterface`. To do this, we'll create a new interface that extends the base `CharacterInterface`.
 
 1. Choose a character to build
-1. Use the generic `Character` class as a reference, but _do not extend from it!_ Instead of using inheritance, we'll compose the interfaces and behavior.
+1. Use the generic `Character` class as a reference, but _do not inherit from it!_ Instead of using inheritance, we'll compose the interfaces and behavior.
 1. Create a new `interface` in `src/interfaces.ts` and `extend` the __interface__ from `CharacterInterface`.
 1. Now, make sure your character's class `implements` your new interface.
 1. Add a new interface that encapsulates the properties and methods for your character's special behavior.
